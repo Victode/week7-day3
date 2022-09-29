@@ -9,7 +9,7 @@ function apiCall(type) {
 }
 
 function racerFunc(data, type) {
-    console.log(data.MRData.StandingsTable.StandingsLists[0].DriverStandings)
+    console.log(data.MRData.StandingsTable)
     
     for (i of data.MRData.StandingsTable.StandingsLists[0].DriverStandings) {
             if (i.type == type || type == '') {
@@ -48,7 +48,7 @@ myForm.addEventListener('submit', (event) => {
         myList.push(value)
     }
     console.log(myList)
-    apiCall(myList[0])
+    apiCall(myList)
 })
 
 apiCall()

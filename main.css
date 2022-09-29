@@ -1,7 +1,9 @@
 /* main.css */
 
 * {
-    box-sizing: border-box; /* HTML defaults to content-box. Border box is better. */
+    box-sizing: border-box; 
+    margin: 0px;
+    
 }
 
 body {
@@ -13,18 +15,20 @@ body {
     margin: 0px;
     display: flex;
     justify-content: center;
+    
 }
 
 #formDiv {
     margin: 50px auto;
-    background-color: rgba(150,150,150,0.4);
+    background-color: rgba(2, 2, 2, 0.76);
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: white;
+    color: rgb(255, 255, 255);
     border-radius: 25px;
     padding: 20px;
-
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 label {
@@ -36,8 +40,8 @@ label {
 input {
     display: inline-block;
     width: calc(100% - 53px);
-    background-color: rgba(150, 50, 50, 0.0);
-    border-color: white;
+    background-color: rgba(128, 74, 74, 0.315);
+    border-color: rgba(189, 69, 69, 0.8);
     border-radius: 10px;
 }
 
@@ -52,19 +56,19 @@ button {
     justify-content: center;
     border-radius: 10px;
     border-style: solid;
-    border-color: white;
+    border-color: rgba(165, 69, 69, 0.8);
     background-color:rgba(150, 50, 50, 0);
-    color: white;
+    color: rgb(226, 223, 223);
     margin: 10px;
 }
 
 #resultsTable {
     margin-top: 25px;
-    background-color: rgba(59, 65, 77, 0.4);
+    background-color: rgba(50, 75, 124, 0.336);
 }
 
 #form {
-    background-color: rgba(59, 65, 77, 0.4);
+    background-color: rgba(42, 47, 56, 0.4);
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -75,8 +79,8 @@ input {
 
 td {
     border-style: solid;
-    border-color: rgb(247, 240, 240, 0.8);
-    color: white;
+    border-color: rgba(172, 122, 122, 0.8);
+    color: rgb(233, 223, 223);
 }
 
 a {
